@@ -1,0 +1,46 @@
+
+.canciones {
+  background-color: rgb(34, 34, 34);
+
+  position: relative;
+  margin-top:-100px;
+  .list-group{
+    padding: 0px;
+  }
+  h1{
+    color:whitesmoke;
+  }
+  a{
+    color: rgba(17, 255, 49, 0.836);
+  }
+  .icons{
+    float: right;
+    padding-top: 25px;
+    margin-right: 100px;
+    color: rgb(63, 165, 165);
+    .fa-retweet{
+      margin-right: 10px;
+    }
+  }
+  .titleSong , a {
+    float: left;
+    padding-top: 25px;
+    padding-left: 10px;
+
+    
+  }
+  .listSong{
+    background-color: rgb(49, 49, 49);
+    color:whitesmoke;
+    padding: 0px;
+
+  }
+  audio{
+    float: right;
+    margin-right: 100px;
+    opacity: 0.9;
+    color:wheat;
+    padding: -50px
+  }
+
+}
